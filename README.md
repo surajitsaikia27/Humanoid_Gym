@@ -14,7 +14,7 @@ mlagents can be installed using pip:
     $ python3 -m pip install mlagents
  
  
-# The following code can be used to test the trained Humanoid Agent
+## The following code can be used to test the trained Humanoid Agent
 ```python
 from stable_baselines3 import PPO, SAC
 from stable_baselines3.common.evaluation import evaluate_policy
@@ -56,7 +56,7 @@ for i in range(1000):
 
 ```
 
-# You can train the environment by using the code below. It will save the training results into a log directory which you can view using tensorboard. Feel free to change the parameters inside the code
+## You can train the environment by using the code below. It will save the training results into a log directory which you can view using tensorboard. Feel free to change the parameters inside the code
 
 ```python
 from stable_baselines3 import PPO, SAC
