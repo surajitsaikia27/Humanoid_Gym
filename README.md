@@ -1,7 +1,8 @@
 # Humanoid_Gym
 A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation
 
-
+The following code can be used to test the trained Humanoid Agent
+=======================================
 ```python
 from stable_baselines3 import PPO, SAC
 from stable_baselines3.common.evaluation import evaluate_policy
