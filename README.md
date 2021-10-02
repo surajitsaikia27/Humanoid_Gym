@@ -5,9 +5,13 @@ Requirements
 ------------
 
 You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows)
-[![Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
-[![Install Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
- $ pip install mlagents
+
+[Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
+[Install Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
+
+mlagents can be installed using pip:
+
+    $ python3 -m pip install mlagents
  
  
 # The following code can be used to test the trained Humanoid Agent
