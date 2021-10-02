@@ -74,6 +74,10 @@ To monitor the training progress using tensorboard you type the following comman
 
     $ tensorboard --logdir "HERE PUT THE PATH TO THE DIRECTORY"
  
+ 
+ ![Screenshot](tfresults.png)
+ 
+ 
 ## The following code can be used to test the trained Humanoid Agent
 ```python
 from stable_baselines3 import PPO, SAC
