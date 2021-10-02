@@ -1,6 +1,5 @@
-# Humanoid_Gym
-A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation
-
+# Humanoid_Gym (Still working)
+A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation. The environment is being created using mlagents, where the goal of the humanoid is to reach its target goal. It employts four steps reward functions and uses 3D raycast perception to observe the environment. 
 ###  1. Requirements
 ------------
 
