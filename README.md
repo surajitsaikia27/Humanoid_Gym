@@ -1,7 +1,7 @@
 # Humanoid_Gym
 A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation
 
-1. Requirements
+###  1. Requirements
 ------------
 
 You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows)
@@ -13,7 +13,7 @@ mlagents can be installed using pip:
 
     $ python3 -m pip install mlagents
     
-## 2. You can train the environment by using the code below which has OpenAI gym structure. It will save the training results into a log directory which you can view using tensorboard. Feel free to change the parameters inside the code
+### 2. (Training) You can train the environment by using the code below which has OpenAI gym structure. It will save the training results into a log directory which you can view using tensorboard. Feel free to change the parameters inside the code
 
 ```python
 from stable_baselines3 import PPO, SAC
@@ -79,7 +79,7 @@ To monitor the training progress using tensorboard you type the following comman
  ![Screenshot](tfresults.png)
  
  
-## 3. (Testing) The following code can be used to test the trained Humanoid Agent
+### 3. (Testing) The following code can be used to test the trained Humanoid Agent
 ```python
 from stable_baselines3 import PPO, SAC
 from stable_baselines3.common.evaluation import evaluate_policy
