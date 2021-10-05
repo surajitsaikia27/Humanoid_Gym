@@ -7,7 +7,8 @@ A humanoid learns to find its goal using reinforcement learning in a Unity3D sim
 ###  1. Requirements
 ------------
 
-You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows)
+You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the Humanoid.exe file and then by using W,A and D keys.
+
 
 [Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
 [Install Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
