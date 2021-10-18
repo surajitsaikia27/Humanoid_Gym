@@ -1,10 +1,14 @@
-# Humanoid_Gym (Still working)
+# Car_Gym (Currently working)
+An AI car equiped with camera and LIDAR learns to navigate on its own without collisions. You can simply interact with the car by clicking the exe file inside the CAR_GYM folder using the arrow keys.
+
+
+# Humanoid_Gym 
 A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation. The environment is being created using mlagents, where the goal of the humanoid is to reach its target goal. It employts four steps reward functions and uses 3D raycast perception to observe the environment. 
 
 ![Glimpse from the simulation environment](https://github.com/surajitsaikia27/Humanoid_Gym/blob/main/humanoid_sample.gif)
 
 
-###  1. Requirements
+###  1. Requirements for the Humanoid Gym
 ------------
 
 You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the Humanoid.exe file and then by using W,A and D keys.
