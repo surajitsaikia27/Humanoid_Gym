@@ -1,6 +1,7 @@
 # Car_Gym (Currently working)
 An AI car equiped with camera and LIDAR learns to navigate on its own without collisions. You can simply interact with the car by clicking the exe file inside the CAR_GYM folder using the arrow keys.
 
+![sample video of AI car](https://github.com/surajitsaikia27/Humanoid_Gym/blob/main/carGym_example.gif)
 
 # Humanoid_Gym 
 A humanoid learns to find its goal using reinforcement learning in a Unity3D simulation. The environment is being created using mlagents, where the goal of the humanoid is to reach its target goal. It employts four steps reward functions and uses 3D raycast perception to observe the environment. 
